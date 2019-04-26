@@ -1,0 +1,24 @@
+{
+    "features_to_count": [
+        {
+            "name": "paragraphs",
+            "xpath": "//p",
+            "text_re_mode": "search",
+            "text_re_pattern": "simple"
+        },
+        {
+            "name": "anchors",
+            "xpath": "//a"
+        }
+    ],
+    "text_to_extract": [
+        {
+            "name": "paragraph_text",
+            "xpath": "//p"
+        },
+        {
+          "name": "html",
+          "xpath": "//html"
+        }
+    ]
+}
